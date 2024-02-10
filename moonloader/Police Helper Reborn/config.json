@@ -1,0 +1,95 @@
+{
+  "Panels": {
+    "InfoPanel": {
+      "enabled": true,
+      "position": { "y": 872, "x": 419 },
+      "display": {
+        "position": { "area": false, "square": false, "city": true },
+        "other": {
+          "lookingDirection": false,
+          "fps": true,
+          "ping": true,
+          "time": { "seconds": true, "enabled": true },
+          "date": true
+        }
+      }
+    },
+    "Scoreboard": {
+      "enabled": false,
+      "drpElements": true,
+      "colorSelectedOrHovered": true
+    }
+  },
+  "Binder": {
+    "HookTarget": {
+      "mode": 0,
+      "cmd": "ppl",
+      "renderTriangle": true,
+      "v": [18, 75]
+    },
+    "DisableRPs": { "cmd": "psrp", "v": [18, 66] },
+    "RPGun": { "mode": true, "enabled": true },
+    "DefaultCMDs": {
+      "pmir": { "await": 2970, "enabled": true, "v": {} },
+      "/m": { "await": 2970, "enabled": true, "v": {} },
+      "cuff": { "await": 2970, "enabled": false, "v": [97] },
+      "pull": { "await": 2970, "enabled": true, "v": {} },
+      "su": { "await": 2000, "enabled": false, "v": {} },
+      "gotome": { "await": 2000, "enabled": false, "v": {} },
+      "uncuff": { "await": 2000, "enabled": false, "v": [98] },
+      "mask": { "await": 2970, "enabled": true, "v": {} },
+      "eject": { "await": 2970, "enabled": true, "v": {} },
+      "arrest": { "await": 2000, "enabled": false, "v": {} },
+      "ticket": { "await": 2970, "enabled": true, "v": {} },
+      "ud": { "await": 2970, "enabled": false, "v": {} },
+      "usemed": { "await": 2000, "enabled": true, "v": {} },
+      "incar": { "await": 2000, "enabled": false, "v": {} },
+      "ungotome": { "await": 2000, "enabled": true, "v": {} },
+      "pas": { "await": 2000, "enabled": false, "v": {} },
+      "clear": { "await": 2000, "enabled": true, "v": {} },
+      "frisk": { "await": 2970, "enabled": true, "v": {} }
+    },
+    "Dialogs": { "scrollToSelect": false },
+    "IntelliSu": {
+      "enabledRpNamalsk": true,
+      "enabled": true,
+      "cmd": "su",
+      "v": [18, 85]
+    },
+    "ResumeStoppedRPs": { "cmd": "pres", "v": [18, 76] },
+    "QuickMenu": { "enabled": true, "mode": false, "v": [82] }
+  },
+  "Others": {
+    "Display": { "carPlates": true },
+    "UserData": {
+      "fraction": "ГИБДД",
+      "phone": "",
+      "sex": 0,
+      "rank": "Майор",
+      "name": "Виталий",
+      "surname": "Киселев"
+    },
+    "SightDevice": { "cmd": "pvis" },
+    "PlayerInfo": { "cmd": "id" },
+    "InGameChat": { "hash": "", "cmd": "k", "enabled": true },
+    "MainMenu": {
+      "accentColorBrightness": 1,
+      "cmd": "phelp",
+      "accentColor": 4278237886,
+      "v": [113]
+    },
+    "Chat": {
+      "newSu": true,
+      "newTicket": true,
+      "optimisation": true,
+      "numberFormatter": {
+        "showZeros": true,
+        "fullFormat": false,
+        "changeMin": 1000,
+        "enabled": true,
+        "onlyK": false,
+        "onlyMoney": true
+      }
+    }
+  }
+}
